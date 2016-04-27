@@ -1,7 +1,10 @@
 #main
 {
-	width:1124px;
+	position:absolute;
+	width:1024px;
 	min-height:768px;
+	margin-left:-512px;
+	left:50%;
 }
 #baner
 {
