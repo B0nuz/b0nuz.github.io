@@ -5,6 +5,7 @@
 	min-height:768px;
 	margin-left:-512px;
 	left:50%;
+	padding:auto;
 }
 #baner
 {
@@ -15,16 +16,26 @@
 #menu
 {
 	width:1024px;
-	height:16px;
+	height:32px;
 	background-color:green;
 }
 #content
 {
-	
+	margin-top:-16px;
+	min-height:668px;
+	width:1024px;
+	background-color:blue;
 }
 
 #footer
 {
+	width:1024px;
+	height:20px;
+	background-color:green;
+}
+.news
+{
+	border-bottom-style:solid;
 }
 html
 {
