@@ -11,7 +11,7 @@
 }
 #baner
 {
-	background-color:red;
+	background-color:#CCCBFF;
 	width:1024px;
 	height:128px;
 }
@@ -19,21 +19,21 @@
 {
 	width:1024px;
 	height:32px;
-	background-color:green;
+	background-color:#B9DDE8;
 }
 #content
 {
 	margin-top:-16px;
 	min-height:668px;
 	width:1024px;
-	background-color:blue;
+	background-color:#D8ECFF;
 }
 
 #footer
 {
 	width:1024px;
 	height:20px;
-	background-color:green;
+	background-color:#B9DDE8;
 }
 .news
 {
