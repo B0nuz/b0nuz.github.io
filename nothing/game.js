@@ -41,7 +41,7 @@ function buy1()
 		score -= price;
 		if(bAmmount==0)
 		{
-			playground.innerHTML += '<img src="img/1b.gif" alt="/b/">';
+			playground.innerHTML += '<img src="img/1b.gif" alt="/b/" style="pointer-events: none;">';
 		}
 		bAmmount++;
 		bAmmountDisplay.innerHTML = bAmmount;
