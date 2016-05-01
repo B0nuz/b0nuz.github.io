@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<script src="game.js"></script>
-	<title>Document</title>
+	<title>Meme Clicker v0.15</title>
 </head>
 <body>
 	<div id="agatka" onclick="agatkaClick()">
-		<!-- <img id="imgatka" src="img/agatka.gif" alt="Nima agatki QQ" draggable="false"> -->
-		<div id="imgatka"></div>
+		<img id="imgatka" src="img/agatka.gif" alt="Nima agatki QQ" draggable="false">
+		<!-- <div id="imgatka"></div> -->
+		<p id="score"  unselectable="on">0 agatek</p>
 		
 	</div>
 	
@@ -17,7 +18,6 @@
 	
 	
 	<div id="scoreboard">
-		<p id="score"> 0 agatek</p>
 		<!-- <button onclick="displayScore()">aaa</button> -->
 	</div>
 	
@@ -26,7 +26,13 @@
 	</div>
 	
 	<div id="buymenu">
-		<div class="buyOption">Tak</div>
+		<div class="buyOption" onclick="buy1()">
+			<img src="img/1.png" alt="/b/" class="buyOptionImg" >
+				<span class="optionName">/b/ be like</span>
+				<span class="optionAmmount" id="bAmmount">0</span><br />
+				<span class="optionAps"> 0.2 Agatka/s</span><br />
+				<span class="optionCost" id="bPrice">15 agatek</span>
+		</div>
 	</div>
 </body>
 </html>
