@@ -24,6 +24,41 @@
 	width:300px;
 	height:320px;
 }
+
+a:link.menuButton {
+    text-decoration: none;
+	color:black;
+	display:inline-block;
+	width:290px;
+	height:64px;
+	background-color:#B9DDE8;
+	border-color:#B9C5E8;
+	border-style:outset;
+	border-radius: 10px;
+	border-width:5px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 64px;  
+}
+
+
+a:visited.menuButton {
+    text-decoration: none;
+}
+
+
+a:hover.menuButton, a:active.menuButton  {
+    text-decoration: none;
+	border-style:inset;
+	background-color:#A3C3CC;
+}
+#slideshow
+{
+	width:1024px;
+	height:320px;
+	background-image:url('slideshow/slide1.jpg');
+	background-size:1024px 320px;
+}
 #content
 {
 	margin-top:-16px;
