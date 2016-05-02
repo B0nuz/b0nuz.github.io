@@ -81,6 +81,7 @@ a:hover.menuButton, a:active.menuButton  {
 html, body
 {
 	background-image:url('bg.gif');
+	content: url('slideshow/slide1.jpg') url('slideshow/slide2.jpg') url('slideshow/slide3.jpg');
 }
 button
 {
