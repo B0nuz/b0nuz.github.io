@@ -7,27 +7,28 @@
 	padding:auto;
 	border-style:solid;
 	border-width:1px;
+	background-color:white;
 }
 #baner
 {
-	background-color:#CCCBFF;
 	width:1024px;
 	height:128px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
 }
 #menu
 {
 	position:absolute;
 	left:1070px;
-	width:210px;
-	height:768px;
-	background-color:#B9DDE8;
+	top:140px;
+	width:300px;
+	height:320px;
 }
 #content
 {
 	margin-top:-16px;
 	min-height:668px;
 	width:1024px;
-	background-color:#D8ECFF;
 }
 
 #footer
@@ -40,11 +41,16 @@
 {
 	padding-left:10px;
 	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+html, body
+{
+	background-image:url('bg.gif');
 }
 button
 {
-	width:200px;	
-	height:32px;
+	width:300px;	
+	height:64px;
 	margin:0;
 	padding:0;
 }
