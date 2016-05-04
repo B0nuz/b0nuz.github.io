@@ -1,9 +1,9 @@
 #main
 {
 	position:absolute;
-	width:1024px;
-	min-height:768px;
-	left:40px;
+	width:1028px;
+	margin-left:-514px;
+	left:60%;
 	padding:auto;
 	border-style:solid;
 	border-width:1px;
@@ -54,26 +54,67 @@ a:hover.menuButton, a:active.menuButton  {
 }
 #slideshow
 {
-	width:1024px;
+	position:relative;
+	width:100%;
 	height:320px;
+	top:0;
 	background-image:url('slideshow/slide1.jpg');
-	background-size:1024px 320px;
+	background-size:100% 320px;
+	text-align:center;
+	font-size:50px;
+	font-family:Impact;
+}
+
+.slideshowMenuButton
+{
+	font-size:30px;
+	float:right;
+	width:300px;
+	font-family:Impact;
+	color:white;
+	text-align:right;
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
+	text-decoration:none;
+}
+#slideshowMenu
+{
+	position:absolute;
+	bottom:5px;
+	right:0;
+	line-height:31px;
+}
+#slideshowTitle
+{
+	position:absolute;
+	top:0;
+	background-color:rgba(0,0,0,0.8);
 }
 #content
 {
 	margin-top:-16px;
-	min-height:668px;
-	width:1024px;
+	min-height:400px;
+	width:100%;
 }
 
 #footer
 {
-	width:1024px;
+	width:100%;
 	height:20px;
 	background-color:#B9DDE8;
 }
+
+.photoArea
+{
+	position:absolute;
+	right:50px;
+	top:30px;
+	width:346px;
+	height:200px;
+	text-align:center;
+}
 .news
 {
+	position:relative;
 	padding-left:10px;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
