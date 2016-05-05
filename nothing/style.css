@@ -21,20 +21,30 @@
 	pointer-events: none;
 
 }
-
-#score
+#scoreboard
 {
 	position:absolute;
-	top:25vh;
+	top:10vh;
 	left:0;
 	width:25vw;
+	height:10vh;
 	text-align:center;
 	background: rgba(0, 0, 0, 0.5);
 	color:white;
-	font-size:3vw;
 }
 
-#scoreboard
+#score
+{
+	font-size:3vw;
+}
+#apsDisplay
+{
+	
+	font-size:1vw;
+	
+}
+
+#title
 {
 	position:absolute;
 	top:0;
@@ -45,6 +55,12 @@
 	border-width:1vw;
 	background-image:url('img/bg.png');
 }
+#titleText
+{
+	font-size:3vw;
+	text-align:center;
+	text-shadow: 0 0 3px #FF0000;
+}
 
 #playground
 {
@@ -54,6 +70,7 @@
 	width:48vw;
 	height:78.5vh;	
 	background-image:url('img/bg.png');
+	overflow-y:auto;
 }
 
 #buymenu
@@ -106,6 +123,11 @@
 {
 	font-size:2vh;
 	padding-left:2vw;
+}
+.optionGif
+{
+	width:100%;
+	min-height:20vh;
 }
 
 
