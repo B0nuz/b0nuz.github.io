@@ -8,35 +8,44 @@
 </head>
 
 <body>
- <div id="menu">
-    <button onclick="window.location.assign('./')">Strona Główna</button>
-    <button onclick="window.location.assign('oLesznie/')">O Lesznie</button>
-    <button onclick="window.location.assign('radaMiejska/')">Rada miejska</button>
-    <button onclick="window.location.assign('urzadMiasta/')">Urząd miasta</button>
-    <button onclick="window.location.assign('wykaz/')">Wykaz jednostek oświatowych</button>
- </div>
+ <!-- <div id="menu">
+    <a class="menuButton" href="/">Strona Główna</a>
+    <a class="menuButton" href="/">O Lesznie</a>
+    <a class="menuButton" href="/">Rada miejska</a>
+    <a class="menuButton" href="/">Urząd miasta</a>
+    <a class="menuButton" href="/">Wykaz jednostek oświatowych</a>
+ </div> -->
   
 	<div id="main">
-		<div id="baner"><img alt="baner" src="baner.png" /></div>
-	 
+		<!-- <div id="baner"><img alt="baner" src="baner.png" /></div> -->
+		<div id="slideshow">
+			<span id="slideshoTitle">Biuro Informacji Publicznej</span>
+			<div id="slideshowMenu">
+				<a href="/" class="slideshowMenuButton">Strona główna</a><br /> <a href="oLesznie" class="slideshowMenuButton">O Lesznie</a><br /> <a href="radaMiejska" class="slideshowMenuButton">Rada miejska</a> <br /> <a href="urzadMiasta" class="slideshowMenuButton"> Urząd miasta</a> <br /> <a href="oswiata" class="slideshowMenuButton"> Oświata </a>
+			</div>
+		</div>  <!-- Obrazki w 1024px x 320px zapisane jako slideX.jpg gdzie x - kolejny numer slide -->
 		<div id="content">
 		
 			<div class="news"> 
-				<h3 class="title">Urząd Miasta</h3>
+				<h3 class="title">Urząd Miasta Leszna</h3>
 				<p class="newsContent">
-					Urząd Miasta Leszna<br />
 					ul. Kazimierza Karasia 15<br />
-					64-100 Leszno<br />
+					64-100 Leszno<br /><br />
 
-					tel. +48 65 529 81 00<br />
-					faks +48 65 529 81 31<br />
+					<b>tel.</b> +48 65 529 81 00<br />
+					<b>faks</b> +48 65 529 81 31<br /><br />
 
-					e-mail: <a href="mailto:um@leszno.pl">um@leszno.pl</a><br />
-					strona internetowa: <a href="http://www.leszno.pl">www.leszno.pl</a><br />
+					<b>e-mail:</b> <a href="mailto:um@leszno.pl">um@leszno.pl</a><br />
+					<b>strona internetowa:</b> <a href="http://www.leszno.pl">www.leszno.pl</a><br /><br />
 
-					NIP 6970020756<br />
-					REGON 000660995<br />
-					Identyfikator gminy TERYT: 3063011<br />
+					<b>NIP</b> 6970020756<br />
+					<b>REGON</b> 000660995<br />
+					<b>Identyfikator gminy TERYT:</b> 3063011<br />
+					
+					<div class="photoArea">
+						<img src="prezydent.png" alt="Prezydent" id="tak" > 
+						Prezydent miasta Leszna
+					</div>
 
 				
 				</p>
@@ -49,7 +58,7 @@
 				<h3 class="title">BIP Leszno</h3>
 				<p class="newsContent">
 				
-				Leszno (łac. Lessna Polonorum, niem. Lissa) – miasto na prawach powiatu w województwie wielkopolskim, położone w zachodniej części Polski, pomiędzy dwoma dużymi centrami gospodarczymi – Poznaniem i Wrocławiem. Zamieszkuje je 64 722 osób, na powierzchni 31,86 km²; co daje miastu siódmą lokatę pod względem wielkości w województwie.
+				<b>Leszno (łac. Lessna Polonorum, niem. Lissa) </b> – miasto na prawach powiatu w województwie wielkopolskim, położone w zachodniej części Polski, pomiędzy dwoma dużymi centrami gospodarczymi – Poznaniem i Wrocławiem. Zamieszkuje je 64 722 osób, na powierzchni 31,86 km²; co daje miastu siódmą lokatę pod względem wielkości w województwie.
 				
 				</p>
 
@@ -63,3 +72,4 @@
 
 </body>
 </html>
+ <script src="slideshow.js"></script>

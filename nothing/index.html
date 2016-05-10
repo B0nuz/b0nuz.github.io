@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="game.js"></script>
+	<title>Meme Clicker v0.2</title>
+</head>
+<body>
+	<div id="agatka" onclick="agatkaClick()">
+		<img id="imgatka" src="img/agatka.gif" alt="Nima agatki QQ" draggable="false">
+		<!-- <div id="imgatka"></div> -->
+		<div id="scoreboard">
+			<span id="score"  unselectable="on">0 agatek</span><br />
+			<span id="apsDisplay"> 0 agatek na sekunde </span>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id="title">
+		<p id="titleText">Meme Clicker v0.2</p>
+		<!-- <button onclick="addScore()">+1000</button> -->
+	</div>
+	
+	<div id="playground">
+		
+	</div>
+	
+	<div id="buymenu">
+		<div class="buyOption" onclick="buy1()">
+			<img src="img/1.png" alt="/b/" class="buyOptionImg" >
+				<span class="optionName">/b/ be like</span>
+				<span class="optionAmmount" id="bAmmount">0</span><br />
+				<span class="optionAps"> 1 Agatka/s</span><br />
+				<span class="optionCost" id="bPrice">15 agatek</span>
+		</div>
+		
+		<div class="buyOption" onclick="buy2()">
+			<img src="img/2.jpeg" alt="Doge" class="buyOptionImg" >
+				<span class="optionName">Nice doge</span>
+				<span class="optionAmmount" id="dogAmmount">0</span><br />
+				<span class="optionAps"> 2 Agatka/s</span><br />
+				<span class="optionCost" id="dogPrice">100 agatek</span>
+		</div>
+		
+		<div class="buyOption" onclick="buy3()">
+			<img src="img/3.jpg" alt="Shrek" class="buyOptionImg" >
+				<span class="optionName">Love and Life</span>
+				<span class="optionAmmount" id="shrekAmmount">0</span><br />
+				<span class="optionAps"> 4 Agatka/s</span><br />
+				<span class="optionCost" id="shrekPrice">1000 agatek</span>
+		</div>
+		
+		<div class="buyOption" onclick="buy4()">
+			<img src="img/4.jpg" alt="Redpill" class="buyOptionImg" >
+				<span class="optionName">Take the redpill</span>
+				<span class="optionAmmount" id="redpillAmmount">0</span><br />
+				<span class="optionAps"> 6 Agatka/s</span><br />
+				<span class="optionCost" id="redpillPrice">3000 agatek</span>
+		</div>
+	</div>
+</body>
+</html>
